@@ -1,6 +1,6 @@
 # WhisperApp v2.1 – Whisper Transcriber
 
-WhisperApp is a Windows desktop app that uses [OpenAI Whisper](https://github.com/openai/whisper) and `ffmpeg` to turn audio or video files into text (and optionally `.srt` subtitle files).  
+WhisperApp is a FREE Windows desktop app that uses [OpenAI Whisper](https://github.com/openai/whisper) and `ffmpeg` to turn audio or video files into text (and optionally `.srt` subtitle files).  
 It runs locally on your machine and can automatically use your GPU if CUDA is available.
 
 ---
@@ -103,6 +103,7 @@ pip install openai-whisper torch ffmpeg-python pyinstaller
 
 # Ensure ffmpeg.exe is in the project root, then run:
 pyinstaller WhisperApp_v2.1.spec
+
 
 
 
